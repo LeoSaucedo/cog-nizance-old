@@ -18,7 +18,7 @@
 (“**“ = Italicized)
 ```
 
-# Meeting Gilbert:
+# Act 1 - Meeting Gilbert:
 
 *Dialect in form of boxes*:
 
