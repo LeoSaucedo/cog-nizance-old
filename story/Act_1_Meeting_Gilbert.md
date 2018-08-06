@@ -29,7 +29,7 @@
 
 (“//“ = Italicized)
 
-~~Meeting Gilbert:~~
+##### Meeting Gilbert:
 
 /Dialect in form of boxes/:
 
