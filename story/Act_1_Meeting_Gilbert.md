@@ -141,17 +141,17 @@
 
 #### For documents discovered & next phase of Act
 
-`(Box 1):` *Experiment 19.6.8.9 (Day 234):` 12. seems docile after the routine of tranquilization. The gills have fully developed on 12.’s cervical region, the faintly purple tinted webbing has expanded between each finger. Such may be useful in the future, but this isn’t ensured.
+`(Box 1):` *Experiment 19.6.8.9 (Day 234): 12. seems docile after the routine of tranquilization. The gills have fully developed on 12.’s cervical region, the faintly purple tinted webbing has expanded between each finger. Such may be useful in the future, but this isn’t ensured.
 
-`(Box 2):` *Experiment  1.7.10.12(Day 543):` 7. Has been rejecting water as a whole. Dehydration is notable in the life form of said experiment, as water is a harmful element against the constant flammable abilities she contains. 7.’s death due to this seemingly unfixable error would not be surprising.
+`(Box 2):` *Experiment  1.7.10.12(Day 543): 7. Has been rejecting water as a whole. Dehydration is notable in the life form of said experiment, as water is a harmful element against the constant flammable abilities she contains. 7.’s death due to this seemingly unfixable error would not be surprising.
 
-`(Box 3):` *Experiment  22.14.2.7 (Day 1004):` 4. Remains to stay amid the shadows of his cell. Light causes harm to 4., and upon shining any light around the milky white optics of said experiment causes a state of temporary blindness.
+`(Box 3):` *Experiment  22.14.2.7 (Day 1004): 4. Remains to stay amid the shadows of his cell. Light causes harm to 4., and upon shining any light around the milky white optics of said experiment causes a state of temporary blindness.
 
-`(Box 4):` *Experiment 5.6.2.3 (Day 1560):` 5. Has gone terribly wrong. The original aim for granting 5. With the ability to display superhuman strength has given 5. impossibly bloated limbs that resemble muscle. However, these limbs prove to be too big for 5.’s frail physique to burden, rendering him immobile and furthermore useless to our program overall.
+`(Box 4):` *Experiment 5.6.2.3 (Day 1560): 5. Has gone terribly wrong. The original aim for granting 5. With the ability to display superhuman strength has given 5. impossibly bloated limbs that resemble muscle. However, these limbs prove to be too big for 5.’s frail physique to burden, rendering him immobile and furthermore useless to our program overall.
 
-`(Box 5):` *Experiment 21.23.16.4 (Day 2067):` 21. Has grown ears bigger than the average human—measured roughly estimated to be a foot in height and half a foot in width. 21. Is contained within a soundproof chamber, and no one is allowed within her domain due to the smallest of sounds causing major discomfort to 21..
+`(Box 5):` *Experiment 21.23.16.4 (Day 2067): 21. Has grown ears bigger than the average human—measured roughly estimated to be a foot in height and half a foot in width. 21. Is contained within a soundproof chamber, and no one is allowed within her domain due to the smallest of sounds causing major discomfort to 21..
 
-`(Box 6):` *Experiment 19.8.22.2 (Day 2456):` 19. is reluctant to sufficing our demands. 19. has attempted to utilize her convertible gaseous exterior to escape a multitude of times. If she continues to follow this line of behavior, then it would seemingly be within our best interest to permanently eliminate 19. from our program.*
+`(Box 6):` *Experiment 19.8.22.2 (Day 2456): 19. is reluctant to sufficing our demands. 19. has attempted to utilize her convertible gaseous exterior to escape a multitude of times. If she continues to follow this line of behavior, then it would seemingly be within our best interest to permanently eliminate 19. from our program.*
 
 `(Box 7):` Ashira: “... I think I know who the real monsters were.”
 
@@ -193,7 +193,7 @@
 
 `[AS] =` The player is free to roam the room, and near the static television, there is a desk with elixirs in vials littering the desk, along with stacks of paperwork. The player is given the option to *inspect*
 
-`[AS] =` The television fills the screen, and an animatic*animation of an old time tune in black and white white cutesy old time styled cartoon people fill the screen. A title appears and reads *It’s not magic... It’s science!*. A scene proceeds to follow, showing scientists in the form of the old time style cartoon drinking elixirs and being granted with temporary magic-like abilities such as breathing fire, breathing underwater, and growing wings. The clip ends with a scientist giving a thumbs up and a crowd of people praising him with smiles and cheers with the words *Making sure humanity will be saved by the real heroes*. For a brief second, text scrolls across the screen saying: products most definitely NOT tested on children—keep away from them to ensure their safety. Do not use products if pregnant, depressed, anxious, ill, prone to seizures—and most definitely don’t use if you’re the *Hope*.
+`[AS] =` The television fills the screen, and an animatic*animation of an old time tune in black and white cutesy old time styled cartoon people fill the screen. A title appears and reads *It’s not magic... It’s science!*. A scene proceeds to follow, showing scientists in the form of the old time style cartoon drinking elixirs and being granted with temporary magic-like abilities such as breathing fire, breathing underwater, and growing wings. The clip ends with a scientist giving a thumbs up and a crowd of people praising him with smiles and cheers with the words *Making sure humanity will be saved by the real heroes*. For a brief second, text scrolls across the screen saying: products most definitely NOT tested on children—keep away from them to ensure their safety. Do not use products if pregnant, depressed, anxious, ill, prone to seizures—and most definitely don’t use if you’re the *Hope*.
 
 Suddenly, an angry face of cartoon scientist pops up in the middle of the screen, followed by a few more angry scientist faces in either corner of the screen.
 
@@ -205,7 +205,7 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `[AS] =` The gentle tune of music suddenly morphs into combat music. Ashira must use her Rusty Pipe to smash the screen of the old television in before it gets the chance to pry itself from the wall. After having done this, the music changes back to the gentle music playing before and the player is now able to inspect the vials on the desk. One is labeled as *wings*. The player is able to take this vial out of their inventory and drink it.
 
-`(Box 16):` (... The concoction in the vial graces Ashira’s tastebuds with a light and saccharine taste reminiscent of caramel—a taste that compliments the reddish brown that churned within the vial)
+`(Box 16):` (... The concoction in the vial graces Ashira’s taste buds with a light and saccharine taste reminiscent of caramel—a taste that compliments the reddish brown that churned within the vial)
 
 `[AS] =` A small box appears on the top right hand side of the screen, showing the player has 15 seconds of using feathery wings that they had sprouted in order to fly over the abyss in order to grab 3.1 and fly her to safety.
 
