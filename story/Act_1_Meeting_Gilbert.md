@@ -1,6 +1,6 @@
 ### Side Notes & Questions
 
-- The *Meeting Gilbert* act is NOT to be the first act within the game, as there should be venturing within the world of the RPG n order to get a feel for mechanics, receive starter items, and possibly incorporate side plot if wanted*needed. *Meeting Gilbert* will be the first big mission that the player will face.
+- The *Meeting Gilbert* act is NOT to be the first act within the game, as there should be venturing within the world of the RPG n order to get a feel for mechanics, receive starter items, and possibly incorporate side plot if wanted/needed. *Meeting Gilbert* will be the first big mission that the player will face.
 - Would voice acting and/or an OST be a worthy investment into the RPG?
 -  Would two artistic media being incorporated into the visual facet of the game make it more immersive?
 - Can others be introduced to aiding in the conception/creation of this RPG if interested?
@@ -183,7 +183,7 @@
 
 `[AS] =`  The very last pipe the player meets must be sprinted through, as it shakes while the player steps onto it, and given a limited amount of time to keep their weight on it before it falls and sends the player back to the checkpoint
 
-`[AS] =` Once reaching the next room, the orb does a bell chime and a box appear warning the player of danger up ahead. In this room, The player must face mechanical rats dubbed “Lab Rats” that emit an artificial hiss when taking damage. This weak enemy is defeated with two strikes of the Rusty Pipe, and can reduce 5 PH out of 50 PH in total {PH can be lengthened later on}
+`[AS] =` Once reaching the next room, the orb does a bell chime and a box appear warning the player of danger up ahead. In this room, The player must face mechanical rats dubbed “Lab Rats” that emit an artificial hiss when taking damage. This weak enemy is defeated with two strikes of the Rusty Pipe, and can reduce 5 `PH` out of 50 `PH` in total {`PH` can be lengthened later on}
 
 `[AS] =` Once the 3 enemies are defeated, teaching the player mechanics for combat, the player can move on with following the orb into another room. The room is half deteriorated, and pipes jutting out from the wall on the other side of the room are visible. On one of those pipes, 3.1 is hanging by the back of her hood, unconscious. A television with static produces a faint white glow, and the sound of static with the gentle tune of background music proceeds to meet the player’s ears
 
