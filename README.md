@@ -11,4 +11,5 @@ A Java RPG.
 - John David Griffin, Jr.
 
 #### Artists
+- Alexis Aken
 - Ashelynx
