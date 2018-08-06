@@ -18,7 +18,7 @@
 (“**“ = Italicized)
 ```
 
-# Act 1 - Meeting Gilbert:
+# Act 1 - Meeting Gilbert
 
 *Dialect in form of boxes*:
 
@@ -294,4 +294,4 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `(Box 49):` *Objective completed: Find experiment 3.1*
 
-`(Box 50):` *New Objective: {Coming Soon}*
+`[AS] =` *cog-nizance, the game's title, fades in with its icon. Afterwards, fade to the next act.*
