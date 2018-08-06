@@ -14,7 +14,7 @@
 (“><“ = according multiple choice responses)
 (“[AS]” = Animation Sequence)
 (“PH” = Player’s Health)
-(“{RA}” = Revisioned add)
+(“{RA}” = Revision: Added)
 (“**“ = Italicized)
 ```
 
@@ -59,19 +59,19 @@
 
 `(Box 15):` ???: “A ‘normality’. Your kind isn’t welcome around these parts…”
 
-`(Box 16):` (Ashira: “I...”)
+`(Box 16):` Ashira: “I...”
 
 `({RA} Box):` The child sighs softly, and shakes her head
 
-`(Box 17):` (???: “I promised not to be like your kind, but… It may be for the better to see it that your demise is carried out, and—”)
+`(Box 17):` ???: “I promised not to be like your kind, but… It may be for the better to see it that your demise is carried out, and—”
 
 `(Box 18):` Ashira: “—Wait, you’re making a mistake. You see, my name’s Ashira and I’m on a mission...”
 
-`(Box 19):` (Ashira cautiously plants a foot before her, aiming to comfortingly step forward to melt the whole bitter introduction into a much more gentle place.)
+`(Box 19):` *Ashira cautiously plants a foot before her, aiming to comfortingly step forward to melt the whole bitter introduction into a much more gentle place.*
 
 `[AS] =` *“???” Pipes a stubborn grunt in noting Ashira attempting to step closer and with impossibly  rapid reflexes unsheathes a long slightly slender silvery tube*
 
-`(Box 20):`  (The child tightly grasps a large dented pipe in hand, posing in a defensive stance)
+`(Box 20):`  *The child tightly grasps a large dented pipe in hand, posing in a defensive stance*
 
 `[AS] =` *Ashira recoils her foot and fans her hands out before her in defense*
 
@@ -79,7 +79,7 @@
 
 `(Box 22):` ???: “Why should I give *you* a chance to talk? Your kind silenced me and my friends whenever we begged to be heard…”
 
-`(Box 23):` (??? Squints her eyes into slivers overflowing with suspicion)
+`(Box 23):` *??? Squints her eyes into slivers overflowing with suspicion*
 
 `(Box 24):` ???: “You’re just one of the many that deem themselves to be God—a cruel and relentless one at that.”
 
@@ -91,11 +91,11 @@
 
 `(Box 26):` Ashira: “That’s not what I stand by, you don’t under—“
 
-`(Box 27):` (??? Cocks her head to the side, revealing one large sappy eye void of emotion but intensely weighing guilt on Ashira’s shoulders as if she truly *had* done something wrong)
+`(Box 27):` *??? Cocks her head to the side, revealing one large sappy eye void of emotion but intensely weighing guilt on Ashira’s shoulders as if she truly _had_ done something wrong*
 
 `(Box 28):` ???: “You robbed me of my memories. Took me away from wherever I belonged to perform those terrible experiments on me... And for what?”
 
-`(Box 29):` (??? Looks to have a flame stoked within her singular eye)
+`(Box 29):` *??? Looks to have a flame stoked within her singular eye*
 
 `(Box 30):` ???: “You knew... *The Mutant Mutiny* would ultimately a lead to failure from the beginning…”
 
@@ -113,7 +113,7 @@
 
 `(Box 35):` Ashira: “However, there is something that we can do... The good will prevail if we can just find it in our own beings to grace upon the world... There’s still a flicker of hope to change things.”
 
-`(Box 36):` (??? Slowly raises her head again, and this time manages a sorrow filled smile)
+`(Box 36):` *??? Slowly raises her head again, and this time manages a sorrow filled smile*
 
 `(Box 37):` ???: “Sounds like you have a whole lot of hope in a world so bleak. Unfortunately for me, I’ve come to terms long ago with one thing...”
 
@@ -133,7 +133,7 @@
 
 `[AS] =` *Ashira turns on flashlight, sitting and rubbing at the side of her head*
 
-`(Box 41):` Ashira (in small gray letters): “Hnng… Where… Am I…?”
+`(Box 41):` Ashira [in small gray letters]: “Hnng… Where… Am I…?”
 
 `[AS] =` *Ashira gets to her feet and the player is now free to walk around, though the flashlight is limited to a small beam in illuminating the room, only revealing so much at a time*
 
@@ -141,15 +141,15 @@
 
 #### For documents discovered & next phase of Act
 
-`(Box 1):` *Experiment 19.6.8.9 (Day 234): 12. seems docile after the routine of tranquilization. The gills have fully developed on 12.’s cervical region, the faintly purple tinted webbing has expanded between each finger. Such may be useful in the future, but this isn’t ensured.
+`(Box 1):` *Experiment 19.6.8.9 (Day 234): 12. seems docile after the routine of tranquilization. The gills have fully developed on 12.’s cervical region, the faintly purple tinted webbing has expanded between each finger. Such may be useful in the future, but this isn’t ensured.*
 
 `(Box 2):` *Experiment  1.7.10.12(Day 543): 7. Has been rejecting water as a whole. Dehydration is notable in the life form of said experiment, as water is a harmful element against the constant flammable abilities she contains. 7.’s death due to this seemingly unfixable error would not be surprising.
 
-`(Box 3):` *Experiment  22.14.2.7 (Day 1004): 4. Remains to stay amid the shadows of his cell. Light causes harm to 4., and upon shining any light around the milky white optics of said experiment causes a state of temporary blindness.
+`(Box 3):` *Experiment  22.14.2.7 (Day 1004): 4. Remains to stay amid the shadows of his cell. Light causes harm to 4., and upon shining any light around the milky white optics of said experiment causes a state of temporary blindness.*
 
-`(Box 4):` *Experiment 5.6.2.3 (Day 1560): 5. Has gone terribly wrong. The original aim for granting 5. With the ability to display superhuman strength has given 5. impossibly bloated limbs that resemble muscle. However, these limbs prove to be too big for 5.’s frail physique to burden, rendering him immobile and furthermore useless to our program overall.
+`(Box 4):` *Experiment 5.6.2.3 (Day 1560): 5. Has gone terribly wrong. The original aim for granting 5. With the ability to display superhuman strength has given 5. impossibly bloated limbs that resemble muscle. However, these limbs prove to be too big for 5.’s frail physique to burden, rendering him immobile and furthermore useless to our program overall.*
 
-`(Box 5):` *Experiment 21.23.16.4 (Day 2067): 21. Has grown ears bigger than the average human—measured roughly estimated to be a foot in height and half a foot in width. 21. Is contained within a soundproof chamber, and no one is allowed within her domain due to the smallest of sounds causing major discomfort to 21..
+`(Box 5):` *Experiment 21.23.16.4 (Day 2067): 21. Has grown ears bigger than the average human—measured roughly estimated to be a foot in height and half a foot in width. 21. Is contained within a soundproof chamber, and no one is allowed within her domain due to the smallest of sounds causing major discomfort to 21...*
 
 `(Box 6):` *Experiment 19.8.22.2 (Day 2456): 19. is reluctant to sufficing our demands. 19. has attempted to utilize her convertible gaseous exterior to escape a multitude of times. If she continues to follow this line of behavior, then it would seemingly be within our best interest to permanently eliminate 19. from our program.*
 
@@ -171,7 +171,7 @@
 
 `(Box 11):` Ghost boy: “Don’t worry, I’ll help guide you and warn you about danger ahead.”
 
-`(Box 12):` {Box fills large portion of screen and a discovery sound effect noise is activated}: *New Objective: Find Experiment 3.1*
+`(Box 12):`[Box fills large portion of screen and a discovery sound effect noise is activated]: *New Objective: Find Experiment 3.1*
 
 `[AS] =` *The Ghost Boy transforms into a blue-white orb and disappears through the threshold of the room. The player follows the orb back into the main area*
 
@@ -205,7 +205,7 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `[AS] =` The gentle tune of music suddenly morphs into combat music. Ashira must use her Rusty Pipe to smash the screen of the old television in before it gets the chance to pry itself from the wall. After having done this, the music changes back to the gentle music playing before and the player is now able to inspect the vials on the desk. One is labeled as *wings*. The player is able to take this vial out of their inventory and drink it.
 
-`(Box 16):` (... The concoction in the vial graces Ashira’s taste buds with a light and saccharine taste reminiscent of caramel—a taste that compliments the reddish brown that churned within the vial)
+`(Box 16):` *... The concoction in the vial graces Ashira’s taste buds with a light and saccharine taste reminiscent of caramel—a taste that compliments the reddish brown that churned within the vial*
 
 `[AS] =` A small box appears on the top right hand side of the screen, showing the player has 15 seconds of using feathery wings that they had sprouted in order to fly over the abyss in order to grab 3.1 and fly her to safety.
 
@@ -223,7 +223,7 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `(Box 21):` Ashira: “3.1... You matter. Even though those terrible people you were surrounded by made you seem like you didn’t.”
 
-`(Box 22):` (3.1 sniffles, a single tear rolling down her cheek)
+`(Box 22):` *3.1 sniffles, a single tear rolling down her cheek*
 
 `(Box 23):` Ashira: “You’re not a monster…And you don’t belong here like they said you did.”
 
@@ -232,13 +232,13 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `(Box 25):` Ashira: “And... History won’t be repeated. Because now, it can be... Hm... *Thistory*! It’ll be the story of the pure-of-heart rather than a dumb old *History*. I promise—“
 
-`[AS] =` (3.1 cuts Ashira off with a warm, tearful embrace in return to Ashira’s as she chimes the following:)
+`[AS] =` *3.1 cuts Ashira off with a warm, tearful embrace in return to Ashira’s as she chimes the following:*
 
 `(Box 26):` “Thank you, Ashira... You’re… The care that they told me I would never have and always dreamed of...”
 
-`[AS] =` (Upon 3.1’s rapid scrambling jostle to embrace Ashira back, a newspaper clipping fluttered out of her pocket and landed on the floor. The player is given the option to inspect it)
+`[AS] =` *Upon 3.1’s rapid scrambling jostle to embrace Ashira back, a newspaper clipping fluttered out of her pocket and landed on the floor. The player is given the option to inspect it*
 
-`(Box 27):` (The paper has a bolded title with the name *Gilbert*... The rest of the writing is intangible seemingly due to water damage.)
+`(Box 27):` *The paper has a bolded title with the name _Gilbert_... The rest of the writing is intangible seemingly due to water damage.*
 
 `(Box 28):` Ashira: “Gilbert...”
 
@@ -246,7 +246,7 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `(Box 30):` 3.1: “Huh...?”
 
-`(Box 31):` (Ashira pauses, staring down the bolded word printed onto the gray, frayed piece of paper, and then blinks, glancing at 3.1 with a gentle smile)
+`(Box 31):` *Ashira pauses, staring down the bolded word printed onto the gray, frayed piece of paper, and then blinks, glancing at 3.1 with a gentle smile*
 
 `(Box 32):` Ashira: “I... Think Gilbert fits you more than 3.1...”
 
@@ -258,9 +258,9 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `(Box 36):` Gilbert: “Hm... Gilbert... I think I could get used to that. I... I’ve never had a real name before... None of us have.”
 
-`(Box 37):` (The laboratory groans and rumbles slightly)
+`(Box 37):` *The laboratory groans and rumbles slightly*
 
-`[AS] =` (The Ghost Boy transforms into his physical form once again)
+`[AS] =` *The Ghost Boy transforms into his physical form once again*
 
 `(Box 38):` Ghost Boy: “Time runs short... The spectral children of this old facility can’t support the main beams of this place for much longer. Come, we must hurry if you two will make it out alive.”
 
@@ -268,7 +268,7 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `(Box 40):` Ghost Boy: “I cannot explain any further. Ashira, Gilbert... I’ll lead the way out. Just know that I... Would appreciate it if you return to this crumpled old facility someday to restore the hearts of many more children whom weren’t so lucky.”
 
-`(Box 41):` (The Ghost Boy nods to Gilbert)
+`(Box 41):` *The Ghost Boy nods to Gilbert*
 
 `(Box 42):` Ghost Boy: “Gilbert and I were... Different. However, I... Only made it so far. But, you—Ashira and Gilbert... I have faith in you two. Your compassion welling within the pique of your souls is remarkable.”
 
@@ -288,9 +288,9 @@ Suddenly, an angry face of cartoon scientist pops up in the middle of the screen
 
 `(Box 48):` Ashira: “I won’t... That’s a promise.”
 
-`[AS] =`  (The player climbs up the ladder with Gilbert still clinging on to Ashira’s shoulders. Once reaching the surface, Gilbert hops down and remains at the player’s side—she is notably only half the size of Ashira’s model.)
+`[AS] =`  *The player climbs up the ladder with Gilbert still clinging on to Ashira’s shoulders. Once reaching the surface, Gilbert hops down and remains at the player’s side—she is notably only half the size of Ashira’s model.*
 
-`[AS] =`  (The laboratory caves in on itself once Ashira and Gilbert are safely standing before the crumbling structure, leaving a large, seemingly bottomless square crevice in the ground. A few floating polychromatic orbs drift around the top of the pit, promising a new objective to take place there later on in the game)
+`[AS] =`  *The laboratory caves in on itself once Ashira and Gilbert are safely standing before the crumbling structure, leaving a large, seemingly bottomless square crevice in the ground. A few floating polychromatic orbs drift around the top of the pit, promising a new objective to take place there later on in the game*
 
 `(Box 49):` *Objective completed: Find experiment 3.1*
 
