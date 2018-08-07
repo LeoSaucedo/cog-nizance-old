@@ -46,11 +46,14 @@ public class MainMenuScreen implements Screen {
 		// Menu Options
 		Table menuTable = new Table();
 		menuTable.setFillParent(true);
-		menuTable.setDebug(true);
+		float centerY = menuTable.getY();
+		float centerX = menuTable.getX();
+		menuTable.setPosition(centerY, centerX - 250);
+		menuTable.setDebug(false); // Set to true to see image frames.
 		menuStage.addActor(menuTable);
 		
 		// Temporary until we have asset manager in
-		Skin menuSkin = new Skin(Gdx.files.internal("graphics/skins/flat/skin/skin.json"));
+		Skin menuSkin = new Skin(Gdx.files.internal("graphics/skins/cog-nizance-menu/skin/vhs-ui.json"));
 		
 		// Create buttons
 		TextButton newGameButton = new TextButton("New Game", menuSkin);
@@ -64,11 +67,34 @@ public class MainMenuScreen implements Screen {
 		menuTable.row();
 		menuTable.add(exitButton).fillX().uniformX();
 		
-		// Create Button listeners
+		/*
+		 * Button Listeners
+		 */
+		
+		// New Game Button
 		newGameButton.addListener(new ChangeListener() {
 			@Override
 			public void changed(ChangeEvent event, Actor actor) {
 				System.out.println("User clicked new game button.");
+			}
+		});
+		
+		// Load Game Button
+		loadGameButton.addListener(new ChangeListener() {
+			@Override
+			public void changed(ChangeEvent event, Actor actor) {
+				System.out.println("User clicked load game button.");
+			}
+		});
+		
+		// Exit Button
+		exitButton.addListener(new ChangeListener() {
+			@Override
+			public void changed(ChangeEvent event, Actor actor) {
+				System.out.println("User clicked exit button.");
+				batch.dispose();
+				img.dispose();
+				System.exit(0);
 			}
 		});
 		

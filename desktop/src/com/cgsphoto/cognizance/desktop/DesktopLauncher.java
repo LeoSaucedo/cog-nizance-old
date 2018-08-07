@@ -10,6 +10,8 @@ public class DesktopLauncher {
 		config.title = "cog-nizance";
 		config.width = 1920;
 		config.height = 1080;
+		config.fullscreen = true;
+		config.forceExit = false;
 		new LwjglApplication(new MainGame(), config);
 	}
 }
