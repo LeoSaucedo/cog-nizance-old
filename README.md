@@ -13,3 +13,6 @@ A Java RPG.
 #### Artists
 - Alexis Aken
 - Ashelynx
+
+#### Music & Audio
+- Music: [myuu](https://www.youtube.com/channel/UCiSKnkKCKAQVxMUWpZQobuQ)
