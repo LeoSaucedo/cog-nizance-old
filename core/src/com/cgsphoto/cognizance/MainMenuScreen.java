@@ -52,7 +52,7 @@ public class MainMenuScreen implements Screen {
 		float centerY = menuTable.getY();
 		float centerX = menuTable.getX();
 		menuTable.setPosition(centerY, centerX - 150); // Moves the table down 300p.
-		menuTable.setDebug(true); // Set to true to see image frames.
+		menuTable.setDebug(false); // Set to true to see image frames.
 		menuStage.addActor(bgImage);
 		menuStage.addActor(menuTable);
 		
