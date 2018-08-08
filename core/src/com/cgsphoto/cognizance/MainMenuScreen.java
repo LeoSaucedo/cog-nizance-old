@@ -1,55 +1,59 @@
 package com.cgsphoto.cognizance;
 
 import com.badlogic.gdx.Screen;
-
+import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.audio.Music;
-import com.badlogic.gdx.audio.Sound;
 
 public class MainMenuScreen implements Screen {
 	
-	Texture img;
-	Music introMusic;
-	SpriteBatch batch;
-	BitmapFont font;
+	private MainGame game;
+	private Texture imgTexture;
+	private Image bgImage;
+	private Music introMusic;
+	private BitmapFont font;
 	private Stage menuStage;
-
+	private ScreenViewport viewport;
+	private Table menuTable;
 	
-	//Constructor
+	// Constructor
 	public MainMenuScreen(final MainGame game) {
+		this.game = game;
 		menuStage = new Stage(new ScreenViewport());
 		Gdx.input.setInputProcessor(menuStage);
 	}
 	
 	@Override
 	public void show() {
+		
 		// Splash screen image
-		batch = new SpriteBatch();
-		img = new Texture("graphics/splash_screens/start-menu.png");
+		imgTexture = new Texture("graphics/splash_screens/start-menu.png");
+		bgImage = new Image(imgTexture);
 		
 		// Intro Music
-		introMusic = Gdx.audio.newMusic(Gdx.files.internal("music/disintegrating.mp3"));
+		introMusic = Gdx.audio.newMusic(Gdx.files.internal("music/lament.mp3"));
 		introMusic.play();
+		introMusic.setLooping(true);
 		
 		// Menu Options
-		Table menuTable = new Table();
+		menuTable = new Table();
 		menuTable.setFillParent(true);
 		float centerY = menuTable.getY();
 		float centerX = menuTable.getX();
-		menuTable.setPosition(centerY, centerX - 250);
-		menuTable.setDebug(false); // Set to true to see image frames.
+		menuTable.setPosition(centerY, centerX - 150); // Moves the table down 300p.
+		menuTable.setDebug(true); // Set to true to see image frames.
+		menuStage.addActor(bgImage);
 		menuStage.addActor(menuTable);
 		
 		// Temporary until we have asset manager in
@@ -75,7 +79,9 @@ public class MainMenuScreen implements Screen {
 		newGameButton.addListener(new ChangeListener() {
 			@Override
 			public void changed(ChangeEvent event, Actor actor) {
-				System.out.println("User clicked new game button.");
+				menuStage.dispose();
+				introMusic.stop();
+				game.setScreen(new IntroVideoScreen(game));
 			}
 		});
 		
@@ -91,30 +97,26 @@ public class MainMenuScreen implements Screen {
 		exitButton.addListener(new ChangeListener() {
 			@Override
 			public void changed(ChangeEvent event, Actor actor) {
-				System.out.println("User clicked exit button.");
-				batch.dispose();
-				img.dispose();
-				System.exit(0);
+				Gdx.app.exit();
 			}
 		});
-		
 	}
 
 	@Override
 	public void render(float delta) {
-		Gdx.gl.glClearColor(1, 0, 0, 1);
+		Gdx.gl.glClearColor(0, 0, 0, 0);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		batch.begin();
-		batch.draw(img, 0, 0);
-		batch.end();
-		
+		menuStage.act(Gdx.graphics.getDeltaTime());
 		menuStage.draw();
+		
+		// Escape Key
+		if(Gdx.input.isKeyPressed(Keys.ESCAPE)) {
+			Gdx.app.exit();
+		}
 	}
 
 	@Override
 	public void resize(int width, int height) {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
@@ -137,8 +139,6 @@ public class MainMenuScreen implements Screen {
 
 	@Override
 	public void dispose() {
-		batch.dispose();
-		img.dispose();
 	}
 	
 }

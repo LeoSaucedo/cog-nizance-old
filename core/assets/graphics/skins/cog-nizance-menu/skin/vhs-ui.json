@@ -20,6 +20,12 @@ com.badlogic.gdx.graphics.Color: {
 		b: 1
 		a: 1
 	}
+	gray: {
+		r: 0.5
+		g: 0.5
+		b: 0.5
+		a: 1
+	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
 	selection: {
@@ -84,7 +90,8 @@ com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
 }
 com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
 	default: {
-		font: title
+		downFontColor: gray
+		font: font
 		up: button
 		over: button-over
 	}
