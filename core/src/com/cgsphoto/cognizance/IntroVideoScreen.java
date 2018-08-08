@@ -12,7 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.actions.SequenceAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
-public class IntroVideoScreen implements Screen{
+public class IntroVideoScreen extends GameScreen{
 	Music introVoiceover;
 	private MainGame game;
 	private Stage screenStage;
@@ -20,6 +20,7 @@ public class IntroVideoScreen implements Screen{
 	private Label skipLbl;
 	
 	public IntroVideoScreen(final MainGame game) {
+		super(game);
 		this.game = game;
 		screenStage = new Stage(new ScreenViewport());
 		Gdx.input.setInputProcessor(screenStage);

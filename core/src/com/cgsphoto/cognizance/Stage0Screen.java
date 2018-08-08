@@ -14,7 +14,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 
-public class Stage0Screen implements Screen {
+public class Stage0Screen extends GameScreen {
 	Music introVoiceover;
 	private MainGame game;
 	private Stage screenStage;
@@ -23,6 +23,7 @@ public class Stage0Screen implements Screen {
 	private Music bgMusic;
 	
 	public Stage0Screen(final MainGame game) {
+		super(game);
 		this.game = game;
 		screenStage = new Stage(new ScreenViewport());
 		Gdx.input.setInputProcessor(screenStage);
@@ -54,7 +55,6 @@ public class Stage0Screen implements Screen {
 
 	}
 
-	@Override
 	public void render(float delta) {
 		Gdx.gl.glClearColor(0, 0, 0, 0);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
@@ -64,7 +64,8 @@ public class Stage0Screen implements Screen {
 		
 		// Escape Key
 		if(Gdx.input.isKeyPressed(Keys.ESCAPE)) {
-			Gdx.app.exit();
+			bgMusic.pause();
+			game.setScreen(new PauseScreen(game, this));
 		}
 
 	}
