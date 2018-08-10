@@ -28,7 +28,7 @@
 `[AS] =` *The PH bar appears, indicating it as red and blinking. Ashira can regain health by walking over food items, which now appear to be scattered around the convenience store.
 
 Additionally, a flashlight is lying behind the convenience store counter, which Ashira has to pick up.
-s
+
 When Ashira regains her full health and picks up the flashlight, an arrow appears, directing her to exit the building.
 
 The "open-world" nature of the game is revealed as Ashira is now able to move freely around the world.*
