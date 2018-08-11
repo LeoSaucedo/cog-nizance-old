@@ -1,7 +1,6 @@
 package com.cgsphoto.cognizance;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
@@ -18,6 +17,7 @@ public class IntroVideoScreen extends GameScreen{
 	private Stage screenStage;
 	private Skin skin;
 	private Label skipLbl;
+	private float MusicPosition;
 	
 	public IntroVideoScreen(final MainGame game) {
 		super(game);
@@ -55,7 +55,7 @@ public class IntroVideoScreen extends GameScreen{
 			@Override
 			public boolean act(float delta) {
 				introVoiceover.stop();
-				game.setScreen(new Stage0Screen(game));
+				//game.setScreen(new Stage0Intro(game));
 				return true;
 			}
 			
@@ -90,13 +90,15 @@ public class IntroVideoScreen extends GameScreen{
 
 	@Override
 	public void pause() {
-		// TODO Auto-generated method stub
+		introVoiceover.getPosition();
+		introVoiceover.pause();
 		
 	}
 
 	@Override
 	public void resume() {
-		// TODO Auto-generated method stub
+		introVoiceover.play();
+		introVoiceover.setPosition(MusicPosition);
 		
 	}
 

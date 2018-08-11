@@ -143,7 +143,7 @@
 
 `(Box 1):` *Experiment 19.6.8.9 (Day 234): 12. seems docile after the routine of tranquilization. The gills have fully developed on 12.’s cervical region, the faintly purple tinted webbing has expanded between each finger. Such may be useful in the future, but this isn’t ensured.*
 
-`(Box 2):` *Experiment  1.7.10.12(Day 543): 7. Has been rejecting water as a whole. Dehydration is notable in the life form of said experiment, as water is a harmful element against the constant flammable abilities she contains. 7.’s death due to this seemingly unfixable error would not be surprising.
+`(Box 2):` *Experiment  1.7.10.12(Day 543): 7. Has been rejecting water as a whole. Dehydration is notable in the life form of said experiment, as water is a harmful element against the constant flammable abilities she contains. 7.’s death due to this seemingly unfixable error would not be surprising.*
 
 `(Box 3):` *Experiment  22.14.2.7 (Day 1004): 4. Remains to stay amid the shadows of his cell. Light causes harm to 4., and upon shining any light around the milky white optics of said experiment causes a state of temporary blindness.*
 

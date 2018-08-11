@@ -14,38 +14,38 @@ import com.badlogic.gdx.utils.viewport.ScreenViewport;
 public class PauseScreen extends GameScreen {
 	
 	private MainGame game;
-	private Stage mainStage;
-	private Skin menuSkin;
-	private Table menuTable;
+	private Stage pauseStage;
+	private Skin pauseSkin;
+	private Table pauseTable;
 	private Screen lastScreen;
 	
 	public PauseScreen(final MainGame game, Screen lastScreen) {
 		super(game, lastScreen);
 		this.game = game;
 		this.lastScreen = lastScreen;
-		mainStage = new Stage(new ScreenViewport());
-		Gdx.input.setInputProcessor(mainStage);
-		menuSkin = new Skin(Gdx.files.internal("graphics/skins/cog-nizance-menu/skin/vhs-ui.json"));
+		pauseStage = new Stage(new ScreenViewport());
+		Gdx.input.setInputProcessor(pauseStage);
+		pauseSkin = new Skin(Gdx.files.internal("graphics/skins/cog-nizance-menu/skin/vhs-ui.json"));
 	}
 
 	@Override
 	public void show() {
 		
 		// Pause menu options
-		menuTable = new Table();
-		menuTable.setFillParent(true);
-		menuTable.setDebug(false);
-		mainStage.addActor(menuTable);
+		pauseTable = new Table();
+		pauseTable.setFillParent(true);
+		pauseTable.setDebug(false);
+		pauseStage.addActor(pauseTable);
 		
-		TextButton resumeBtn = new TextButton("Resume", menuSkin);
-		TextButton optionsBtn = new TextButton("Options", menuSkin);
-		TextButton exitBtn = new TextButton("Save & Quit", menuSkin);
+		TextButton resumeBtn = new TextButton("Resume", pauseSkin);
+		TextButton optionsBtn = new TextButton("Options", pauseSkin);
+		TextButton exitBtn = new TextButton("Save & Quit", pauseSkin);
 		
-		menuTable.add(resumeBtn).fillX().uniformX();
-		menuTable.row().pad(10,0,10,0);
-		menuTable.add(optionsBtn).fillX().uniformX();
-		menuTable.row();
-		menuTable.add(exitBtn).fillX().uniformX();
+		pauseTable.add(resumeBtn).fillX().uniformX();
+		pauseTable.row().pad(10,0,10,0);
+		pauseTable.add(optionsBtn).fillX().uniformX();
+		pauseTable.row();
+		pauseTable.add(exitBtn).fillX().uniformX();
 		
 		/*
 		 * Button listeners
@@ -56,6 +56,7 @@ public class PauseScreen extends GameScreen {
 			@Override
 			public void changed(ChangeEvent event, Actor actor) {
 				game.setScreen(lastScreen);
+				lastScreen.resume();
 			}
 		});
 		
@@ -81,8 +82,8 @@ public class PauseScreen extends GameScreen {
 		Gdx.gl.glClearColor(0, 0, 0, 0);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		
-		mainStage.act(Gdx.graphics.getDeltaTime());
-		mainStage.draw();
+		pauseStage.act(Gdx.graphics.getDeltaTime());
+		pauseStage.draw();
 
 	}
 
