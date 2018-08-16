@@ -14,7 +14,7 @@ public class DesktopLauncher {
 		config.fullscreen = false;
 		config.resizable = false;
 		config.forceExit = false;
-		config.addIcon("graphics/icons/cog-nizance.png", Files.FileType.Internal);
+		//config.addIcon("graphics/icons/cog-nizance.png", Files.FileType.Internal);
 		new LwjglApplication(new MainGame(), config);
 	}
 }
