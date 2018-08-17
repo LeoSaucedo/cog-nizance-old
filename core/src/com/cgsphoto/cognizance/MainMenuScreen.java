@@ -16,7 +16,7 @@ import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.audio.Music;
 
 public class MainMenuScreen extends GameScreen {
-	
+
 	private MainGame game;
 	private Texture imgTexture;
 	private Image bgImage;
@@ -113,32 +113,6 @@ public class MainMenuScreen extends GameScreen {
 		if(Gdx.input.isKeyPressed(Keys.ESCAPE)) {
 			Gdx.app.exit();
 		}
-	}
-
-	@Override
-	public void resize(int width, int height) {
-	}
-
-	@Override
-	public void pause() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void resume() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void hide() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void dispose() {
 	}
 	
 }

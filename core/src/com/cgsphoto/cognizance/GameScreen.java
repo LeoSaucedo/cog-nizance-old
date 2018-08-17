@@ -21,14 +21,18 @@ public abstract class GameScreen implements Screen {
 	private Table pauseTable;
 	private Screen lastScreen;
 	private Music bgMusic;
-	
-	
-	public GameScreen(final MainGame game) {
-		// TODO Auto-generated constructor stub
+	public gameState state;
+
+	public enum gameState{
+		PAUSE,
+		RUN,
+		RESUME,
+		STOPPED
 	}
 	
-	public GameScreen(final MainGame game, Screen lastScreen) {
-		
+	public GameScreen(final MainGame game) {
+		state = gameState.RUN;
+
 	}
 
 	@Override
@@ -39,7 +43,20 @@ public abstract class GameScreen implements Screen {
 
 	@Override
 	public void render(float delta) {
-		
+		switch(state){
+			case RUN:
+				// Runs the code.
+				break;
+			case PAUSE:
+				// Pauses the game.
+				break;
+			case RESUME:
+				// Resumes the game after a pause.
+				break;
+			case STOPPED:
+				// Stops the game.
+				break;
+		}
 	}
 
 	@Override
@@ -50,13 +67,13 @@ public abstract class GameScreen implements Screen {
 
 	@Override
 	public void pause() {
-		// TODO Auto-generated method stub
+		state = gameState.PAUSE;
 
 	}
 
 	@Override
 	public void resume() {
-		// TODO Auto-generated method stub
+		state = gameState.RESUME;
 
 	}
 
@@ -68,17 +85,8 @@ public abstract class GameScreen implements Screen {
 
 	@Override
 	public void dispose() {
-		// TODO Auto-generated method stub
+		state = gameState.STOPPED;
 
-	}
-	
-	public void pauseGame() {
-		// Brings up the pause menu.
-	}
-
-	public void resumeGame() {
-		// Resumes the game after a pause.
-		
 	}
 	
 }
