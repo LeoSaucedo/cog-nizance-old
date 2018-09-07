@@ -10,12 +10,13 @@
 ### Key to symbols within script
 
 ```
+("[GS]" = "Game script"; acronym before the file title to convey it holds a purpose of including essential in-game text and literary visual descriptions (see "//" below) )
 (“>” = Drop down dialect box options)
 (“><“ = according multiple choice responses)
 (“[AS]” = Animation Sequence)
 (“PH” = Player’s Health)
 (“{RA}” = Revision: Added)
-(“**“ = Italicized)
+(“//“ = IMPORTANT: NOT INCLUDED IN ACTUAL GAME DIALECT BOXES… THESE ARE DESCRIBING STRICTLY IN-GAME ARTISTIC VISUALS THAT CAN BE USED AS A STRUCTURE BASE TO WORK WITH FOR IDEAS.)
 ```
 
 # Act 1 - Meeting Gilbert
